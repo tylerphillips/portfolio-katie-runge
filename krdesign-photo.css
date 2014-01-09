@@ -1,89 +1,4 @@
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
 
-/* Space out content a bit */
-body {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Custom page header */
-.header {
-    border-bottom: 1px solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-}
-
-/* Custom page footer */
-.footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-    margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-    margin: 40px 0;
-}
-
-.marketing p + h4 {
-    margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
-
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
 
 body{
   width: 100%;
@@ -113,9 +28,12 @@ body{
 .header {
 	background: #604875;
 	width: 100%;
-	margin-top: -20px;
+	margin-top: -10px;
 	padding-bottom: 0px;
 	padding-right: 45px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 30px;
+
 
 }
 
@@ -172,9 +90,11 @@ li{
 }
  figcaption:hover{
       top: 0;
+      /*opacity: 1;*/
 	   }
 .summary:hover{
       opacity: 1;
+      top: 0;
     }
  
 
@@ -208,7 +128,7 @@ figcaption{
   font-size: 18px;
   margin-top: 10px;
   color: mix(black, white, 20);
-  opacity: 0;
+  opacity: 1;
   overflow: scroll;
 }
 
@@ -669,11 +589,6 @@ margin-left: -25px;
 }
 
 .navigation {
-	 /*margin: 0 auto;*/
-	 /*text-align: center;*/
-	 /*background-color: coral;*/
-	 /*padding: 15px;*/
-
 	margin: 0 auto;
 	text-align: center;
 	padding: 0px;
@@ -695,23 +610,6 @@ display: inline-block;
 
 }
 
-.about {
-	 /*padding-right: 0px;*/
-}
-.photography {
-	 /*padding-right: 0px;*/
-}
-.design {
-	 /*padding-right: 0px;*/
-}
-.home {
-	 /*padding-right: 0px;*/
-}
-
-.main-glyph {
-	 /*font-size: 35px;*/
-}
-
 i p {
 	font-size: 30px;
 }
@@ -719,7 +617,7 @@ i p {
 .design-container {
 	max-height: 15000px;
 	min-height: 1280px;
-	// position: relative;
+	/*// position: relative;*/
 	height: 100%;
 	width: 100%;
 	left: 0;
@@ -735,51 +633,18 @@ i p {
 }
 
 .nav-btns {
-	 /*background-color: #db5951;*/
-	 /*margin: 0 auto;*/
-	 /*text-align: center;*/
 	display: inline-block;
-	  height: 60px;
-	 /*padding: 8px;*/
-	 /*border: solid 3px #2E2E2E;*/
-	 /*margin-right: 20px;*/
-	 /*border-radius: 15px;*/
-	 /*padding-bottom: 3px;*/
+	 height: 60px;
 }
 
- /*.nav-btns:hover {*/
- 	/*background-color: #2E2E2E;*/
- 	/*border: solid 1px #FF9384;*/
- 	/*color: #f5f7f7;*/
- /*}*/
-
- /*.nav-ac {*/
- 	/*background-color: #748d7d;*/
- 	/*color: #f5f7f7;*/
-
- /*}*/
-
- /*.header-back p {*/
- 	/*visibility: hidden;*/
- /*}*/
-
- /*.header-back p:hover {*/
- 	/*visibility: hidden;*/
- /*}*/
 .nav-btns a {
 	color: #f5f7f7;
 }
- /*.nav-btns a:hover {*/
- 	/*color: #f5f7f7;*/
- /*}*/
-
-
-/*// .sep-div {
-// 	background-color: #2E2E2E;
-// 	width: 2px;
-// 	display: inline-block;
-// }*/
 
 .about-container {
 	min-height: 100%
+}
+
+.katie-logo {
+    margin-top: -30px;
 }
