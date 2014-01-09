@@ -1,0 +1,123 @@
+
+
+body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  width: 100%;
+  font-family: 'EB Garamond', serif;
+  color: #362936; 
+  background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+  background-color: #362936;
+}
+
+.container {
+  max-width: 1210px;
+  background-color: #f5f7f7;
+  position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -webkit-transition: left .4s ease-in-out;
+    -moz-transition: left .4s ease-in-out;
+    -ms-transition: left .4s ease-in-out;
+    -o-transition: left .4s ease-in-out;
+    transition: left .4s ease-in-out;
+    margin: 0 auto;
+}
+
+.text-muted {
+    font-family: 'Raleway', sans-serif;
+    color: #f2f2f2;
+    font-size: 40px;
+}
+
+.header {
+    background: #604875;
+    width: 100%;
+    margin-top: -30px;
+    padding-bottom: 0px;
+    padding-right: 45px;
+    margin-left: -10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding: 20px;
+    padding-left: 85px;
+    display: inline-block;
+}
+
+.nav {
+     /*background: #e2614c;*/
+    float: right;
+    display: inline-block;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.fa-nav {
+    color: #f5f7f7;
+    font-size: 60px;
+    margin-right: 20px;
+    display: inline-block;
+    border: solid #f5f7f7;
+    padding: 8px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*.container p {
+    font-family: 'Raleway', sans-serif;
+    color: #604875;
+    font-size: 18px;
+}*/
+
+.about-katie {
+    font-family: 'Raleway', sans-serif;
+    color: #604875;
+    font-weight: 500;
+}
+
+.about-katie-img {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    /*float: right;*/
+    border: solid #604875;
+    border-radius: 20px;
+    margin-right: 15px;
+    max-width: 380px;
+    min-width: 300px;
+    margin-top: 20px;
+}
+
+.about-container {
+    max-height: 1290px;
+    min-height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px #37373f;
+    padding: 25px;
+    width: 90%;
+}
+
+.nav-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    /*position: absolute;*/
+    display: inline-block;
+}
+
+.nav-btns {
+    display: inline-block;
+}
+
+.katie-logo {
+    margin-top: -30px;
+}
