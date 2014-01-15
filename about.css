@@ -5,7 +5,7 @@ body{
     padding-bottom: 20px;
 
   width: 100%;
-  font-family: 'EB Garamond', serif;
+  font-family: '0pen Sans', sans-serif;
   color: #362936; 
   background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
   background-color: #362936;
@@ -37,7 +37,7 @@ body{
     width: 100%;
     margin-top: -30px;
     padding-bottom: 0px;
-    padding-right: 45px;
+    padding-right: 10px;
     margin-left: -10px;
     border-bottom: 1px solid #e5e5e5;
     margin-bottom: 30px;
@@ -80,9 +80,9 @@ body{
 }*/
 
 .about-katie {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #604875;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .about-katie-img {
@@ -120,4 +120,21 @@ body{
 
 .katie-logo {
     margin-top: -30px;
+}
+
+.container p {
+    color: #604875;
+    font-weight: 300;
+}
+
+.fa-desktop {
+    font-size: 58px;
+    height: 60px;
+    padding-right: 10px;
+
+}
+
+.fa-nav {
+    padding-top: 10px;
+    height: 58px;
 }
