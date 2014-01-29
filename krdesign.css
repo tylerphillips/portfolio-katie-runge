@@ -98,7 +98,9 @@ body {
 	/*background: #EECD86;*/
 	/*background: #B95835;*/ /*orange*/
 	/*background: #7A3E48;*/ /*magenta*/
-	background: url("darkwood-plank.jpg");
+	/*background: url("darkwood-plank.jpg");*/
+	/*background: url("darkwood-plank copy.jpg");*/
+	/*background: url("images/wood-texture-three.jpg");*/
 	font-weight: 600;
 
 	/*New Color Schemes*/
@@ -135,6 +137,8 @@ body {
 	background: #D3E397; /*green*/
 	/*background: #FFF5C3;*/ /*yellow*/
 	/*background: #EB6E44;*/ /*orange*/
+		/*background: url("images/wood-texture-three.jpg");*/
+
 
 }
 

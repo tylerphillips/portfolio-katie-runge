@@ -10,8 +10,12 @@ body{
   /*// background-color: #748d7d;*/
   /*// background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/55228/1920.jpg') #b66e5d;*/
   background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+  /*background-image: url('images/wood-texture.jpg');*/
+  background-image: url('darkwood-plank copy.jpg');
+  /*background-image: url('darkwood-plank-blur.jpg');*/
   background-color: #362936;
   /*// background-color: $abc;*/
+  background: url("images/wood-texture-three.jpg")
 }
 
 .container {
@@ -260,43 +264,38 @@ figure .c-c-c {
 }
 
 figure .fbc{
-	width: 130%;
+	width: 170%;
 	margin: 0 auto;
-	margin-top: -34px;
-	margin-left: -50px;
+	margin-top: -57px;
+	margin-left: -89px;
 }
 
 figure .alive{
-	width: 137%;
+	width: 140%;
 	margin: 0 auto;
-	margin-top: 0px;
-	margin-left: -68px;
+	margin-top: -20px;
+	margin-left: -52px;
 }
 
 figure .bowtique{
-	 /*width: 130%;*/
-	 /*margin: 0 auto;*/
-	 /*margin-top: -40px;*/
-	 /*margin-left: -80px;*/
-
-	width: 140%;
+	width: 180%;
 	margin: 0 auto;
 	margin-top: -60px;
-	margin-left: -100px;
+	margin-left: -130px;
 }
 
 figure .variable-mailer-front{
-	width: 150%;
+	width: 140%;
 	margin: 0 auto;
-	margin-top: 0px;
-	margin-left: 0px;
+	margin-top: -20px;
+	margin-left: -50px;
 }
 
 figure .variable-mailer-back{
 	width: 150%;
 	margin: 0 auto;
-	margin-top: 0px;
-	margin-left: 0px;
+	margin-top: -20px;
+	margin-left: -50px;
 }
 
 .summer-kick-off-cook-out-title {
@@ -304,10 +303,10 @@ figure .variable-mailer-back{
 }
 
 figure .summer-kick-off-cook-out {
-	width: 100%;
+	width: 140%;
 	margin: 0 auto;
-	margin-top: -30px;
-	margin-left: 0px;
+	margin-top: -50px;
+	margin-left: -50px;
 }
 
 .hammond-school-title {
@@ -318,21 +317,21 @@ figure .hammond-school {
 	width: 160%;
 	margin: 0 auto;
 	margin-top: -50px;
-	margin-left: -100px;
+	margin-left: -75px;
 }
 
 figure .hammond-display {
-	width: 100%;
+	width: 135%;
 	margin: 0 auto;
-	margin-top: -30px;
-	margin-left: 0px;
+	margin-top: -70px;
+	margin-left: -40px;
 }
 
 figure .yoder-bro-inside {
-	width: 110%;
+	width: 150%;
 	margin: 0 auto;
-	margin-top: -10px;
-	margin-left: -20px;
+	margin-top: -30px;
+	margin-left: -66px;
 }
 
 .yoder-bro-inside-title{
@@ -340,14 +339,21 @@ figure .yoder-bro-inside {
 }
 
 figure .christmas-card {
-	width: 120%;
+	width: 140%;
 	margin: 0 auto;
-	margin-top: -30px;
-	margin-left: -30px;
+	margin-top: -56px;
+	margin-left: -50px;
 }
 
 .christmas-card-title {
 	font-size: 24px;
+}
+
+figure .cha-aero-out {
+	width: 140%;
+	margin: 0 auto;
+	margin-top: -20px;
+	margin-left: -50px;
 }
 
 .cha-aero-sum {
@@ -359,24 +365,24 @@ figure .christmas-card {
 }
 
 figure .pod {
-	width: 195%;
-margin: 0 auto;
-margin-top: -179px;
-margin-left: -150px;
+	width: 215%;
+	margin: 0 auto;
+	margin-top: -130px;
+	margin-left: -143px;
 }
 
 figure .continental-tires-fold-business-card-front {
-	width: 117%;
-margin: 0 auto;
-margin-top: -139px;
-margin-left: -28px;
+	width: 147%;
+	margin: 0 auto;
+	margin-top: -149px;
+	margin-left: -58px;
 }
 
 figure .continental-tires-fold-business-card-back {
-	width: 127%;
-margin: 0 auto;
-margin-top: -169px;
-margin-left: -28px;
+	width: 147%;
+	margin: 0 auto;
+	margin-top: -49px;
+	margin-left: -58px;
 }
 
 .continental-tires-fold-business-card-title {
@@ -385,72 +391,72 @@ margin-left: -28px;
 
 figure .bonfire {
 	width: 190%;
-margin: 0 auto;
-margin-top: -50px;
-margin-left: -145px;
+	margin: 0 auto;
+	margin-top: -100px;
+	margin-left: -105px;
 }
 
 figure .bonfire-flex {
 	width: 160%;
 margin: 0 auto;
-margin-top: 0px;
+margin-top: -20px;
 margin-left: -100px;
 }
 
 figure .bonfire-label {
 	width: 130%;
 margin: 0 auto;
-margin-top: -283px;
+margin-top: -23px;
 margin-left: -35px;
 }
 
 figure .bonfire-insert {
-	width: 310%;
-margin: 0 auto;
-margin-top: 40px;
-margin-left: -435px;
+	width: 490%;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: -305px;
 }
 
 figure .bonfire-logo {
 	width: 120%;
-margin: 0 auto;
-margin-top: -30px;
-margin-left: -30px;
+	margin: 0 auto;
+	margin-top: -30px;
+	margin-left: -25px;
 }
 
 figure .cmad {
-	width: 200%;
-margin: 0 auto;
-margin-top: 0px;
-margin-left: -175px;
+	width: 240%;
+	margin: 0 auto;
+	margin-top: -9px;
+	margin-left: -187px;
 }
 
 figure .flexible-package-back {
 width: 150%;
 margin: 0 auto;
 margin-top: 0px;
-margin-left: -24px;
+margin-left: -45px;
 }
 
 figure .fund-one {
-width: 110%;
-margin: 0 auto;
-margin-top: 20px;
-margin-left: -20px;
+	width: 210%;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-left: -130px;
 }
 
 figure .fund-two {
-width: 110%;
-margin: 0 auto;
-margin-top: 20px;
-margin-left: -20px;
+	width: 210%;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-left: -130px;
 }
 
 figure .scholarship {
-width: 100%;
-margin: 0 auto;
-margin-top: 0px;
-margin-left: 0px;
+	width: 120%;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-left: -25px;
 }
 
 .scholarship-title {
@@ -469,10 +475,10 @@ height: 70%;
 }
 
 figure .first-fri {
-width: 175%;
-margin: 0 auto;
-margin-top: 10px;
-margin-left: -11px;
+	width: 285%;
+	margin: 0 auto;
+	margin-top: -20px;
+	margin-left: -171px;
 }
 
 figure .mtn-view {
@@ -640,7 +646,8 @@ i p {
 	transition: left .4s ease-in-out;
 	margin: 0 auto;
 	border-radius: 25px;
-	box-shadow: 0px 0px 2px #37373f;
+	/*box-shadow: 0px 0px 2px #37373f;*/
+	box-shadow: 2px 2px 13px #37373f;
 	/*padding: 25px;*/
 	overflow: scroll;
 	padding-top: 50px;
@@ -778,7 +785,4 @@ font-weight: 500;
 
 font-size: 118px;
 margin-left: -20px;
-
-
-
 }
