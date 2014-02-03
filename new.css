@@ -9,16 +9,13 @@ body{
   /*// background-color: #abd6ba;*/
   /*// background-color: #748d7d;*/
   /*// background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/55228/1920.jpg') #b66e5d;*/
-  /*background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');*/
+  background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
   /*background-image: url('images/wood-texture.jpg');*/
-  /*background-image: url('darkwood-plank copy.jpg');*/
+  background-image: url('darkwood-plank copy.jpg');
   /*background-image: url('darkwood-plank-blur.jpg');*/
   background-color: #362936;
-  background-color: #7C786A; /*grey*/
-  background-color: #8DCDC1; /*teal*/
-  /*background-color: #EB6E44;*/
   /*// background-color: $abc;*/
-  /*background: url("images/wood-texture-three.jpg")*/
+  background: url("images/wood-texture-three.jpg")
 }
 
 .container {
@@ -34,11 +31,7 @@ body{
 }
 
 .header {
-	/*background: #604875;*/
-	background: #D3E397;
-	/*background: #8DCDC1; /*teal*/
-	background: #7C786A; /*grey*/
-
+	background: #604875;
 	width: 100%;
 	margin-top: -10px;
 	padding-bottom: 0px;
@@ -179,8 +172,6 @@ li {
 	 /*margin: 0px auto;*/
 	margin-right: 10px;
 	margin-bottom: 10px;
-
-	box-shadow: 1px 1px 3px gray;
 }
 figure img {
 	width: 150%;
@@ -646,7 +637,7 @@ i p {
 	min-height: 1280px;
 	/*// position: relative;*/
 	height: 100%;
-	width: 90%;
+	width: 100%;
 	left: 0;
 	-webkit-transition: left .4s ease-in-out;
 	-moz-transition: left .4s ease-in-out;
@@ -656,7 +647,7 @@ i p {
 	margin: 0 auto;
 	border-radius: 25px;
 	/*box-shadow: 0px 0px 2px #37373f;*/
-	box-shadow: 2px 2px 6px #415655;
+	box-shadow: 2px 2px 13px #37373f;
 	/*padding: 25px;*/
 	overflow: scroll;
 	padding-top: 50px;
@@ -778,87 +769,20 @@ margin-top: 9px;
 	padding-top: 0px;
     font-family: 'Open Sans', sans-serif;
     /*text-transform: uppercase;*/
-	font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Shadows Into Light Two', cursive;
 
-	display: inline-block;
-	font-size: 178px;
-	margin-top: -10px;
-	margin-left: -30px;
-	margin-bottom: 0px;
-	padding-top: 0px;
-	font-family: 'Open Sans', sans-serif;
-	/*text-transform: uppercase;*/
-	font-family: 'Shadows Into Light Two', cursive;
-	padding-right: 15px;
-	font-weight: 500;
+display: inline-block;
+font-size: 178px;
+margin-top: -10px;
+margin-left: -30px;
+margin-bottom: 0px;
+padding-top: 0px;
+font-family: 'Open Sans', sans-serif;
+/*text-transform: uppercase;*/
+font-family: 'Shadows Into Light Two', cursive;
+padding-right: 15px;
+font-weight: 500;
 
-	font-size: 118px;
-	margin-left: -20px;
-}
-
-.fixed-nav {
-	background: #7C786A;
-	width: 115px;
-	height: 70px;
-	padding: 10px;
-	border-radius: 8px;
-	position: fixed;
-	/*visibility: hidden;*/
-	opacity: .7;
-	margin-left: -116px;
-}
-.fixed-nav:hover {
-	background: #7C786A;
-	margin-left: 52px;
-	margin-top: -40px;
-	padding: 10px;
-	border-radius: 8px;
-	position: fixed;
-	opacity: 1;
-	/*visibility: visible;*/
-	-webkit-transform: translate(92px, 0px);
-	-moz-transform: translate(92px, 0px);
-	-o-transform: translate(92px, 0px);
-	-ms-transform: translate(92px, 0px);
-	transform: translate(92px, 0px);
-	-webkit-transition: all 0.5s ease-in;
-	-moz-transition: all 0.5s ease-in;
-	-o-transition: all 0.5s ease-in;
-	transition: all 0.5s ease-in;
-
-	margin-left: -110px;
-	padding-left: 18px;
-}
-
-.fixed-design{
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	font-size: 17px;
-	position: absolute;
-	margin-left: 82px;
-	margin-top: -36px;
-}
-.fixed-design:hover{
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	font-size: 17px;
-	position: absolute;
-	margin-left: 82px;
-	margin-top: -36px;
-}
-
-.fixed-sub {
-	margin-top: 20px;
+font-size: 118px;
+margin-left: -20px;
 }
