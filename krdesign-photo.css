@@ -13,12 +13,14 @@ body{
   /*background-image: url('images/wood-texture.jpg');*/
   /*background-image: url('darkwood-plank copy.jpg');*/
   /*background-image: url('darkwood-plank-blur.jpg');*/
-  background-color: #362936;
-  background-color: #7C786A; /*grey*/
-  background-color: #8DCDC1; /*teal*/
+  /*background-color: #362936;*/
+  /*background-color: #7C786A;*/ /*grey*/
+  /*background-color: #8DCDC1;*/ /*teal*/
   /*background-color: #EB6E44;*/
   /*// background-color: $abc;*/
   /*background: url("images/wood-texture-three.jpg")*/
+  background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+  background-color: #362936;
 }
 
 .container {
@@ -35,16 +37,18 @@ body{
 
 .header {
 	/*background: #604875;*/
-	background: #D3E397;
+	/*background: #D3E397;*/
 	/*background: #8DCDC1; /*teal*/
-	background: #7C786A; /*grey*/
+	/*background: #7C786A;*/ /*grey*/
 
-	width: 100%;
-	margin-top: -10px;
-	padding-bottom: 0px;
-	padding-right: 45px;
-	border-bottom: 1px solid #e5e5e5;
-	margin-bottom: 30px;
+	background: #604875;
+    width: 100%;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    padding-right: 45px;
+    margin-left: -10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
 
 
 }
@@ -87,7 +91,8 @@ body{
 }
 
 li{
-  border: solid 1px rgb(173, 173, 173);
+  /*border: solid 1px rgb(173, 173, 173);*/
+	border: solid 1px rgb(96, 96, 96);
   display: block;
   width: 500px;
   height: 335px;
@@ -539,6 +544,13 @@ margin-top: -10px;
 margin-left: -25px;
 }
 
+figure .krafty {
+width: 280%;
+margin: 0 auto;
+margin-top: -17px;
+margin-left: -85px;
+}
+
 .summary {
 	height: 180px;;
 }
@@ -797,7 +809,7 @@ margin-top: 9px;
 }
 
 .fixed-nav {
-	background: #7C786A;
+	background: #604875;
 	width: 115px;
 	height: 70px;
 	padding: 10px;
@@ -808,7 +820,9 @@ margin-top: 9px;
 	margin-left: -116px;
 }
 .fixed-nav:hover {
-	background: #7C786A;
+	background: #604875;
+	/*border-bottom: 1px solid #e5e5e5;*/
+	box-shadow: 1px 4px 0px #e5e5e5;
 	margin-left: 52px;
 	margin-top: -40px;
 	padding: 10px;
@@ -842,7 +856,7 @@ margin-top: 9px;
 	font-size: 17px;
 	position: absolute;
 	margin-left: 82px;
-	margin-top: -36px;
+	margin-top: -30px;
 }
 .fixed-design:hover{
 	-webkit-transform: rotate(-90deg);
@@ -856,9 +870,13 @@ margin-top: 9px;
 	font-size: 17px;
 	position: absolute;
 	margin-left: 82px;
-	margin-top: -36px;
+	margin-top: -30px;
 }
 
 .fixed-sub {
 	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
 }
+
+

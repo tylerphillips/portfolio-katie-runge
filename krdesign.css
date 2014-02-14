@@ -20,14 +20,16 @@ body {
 
 .header {
 	font-family: 'Open Sans', sans-serif;
-	background: #3D3242;
+	/*background: #3D3242;*/
 
 	/*New Color Schemes*/
-	background: #7C786A; /*grayish*/
-	background: #8DCDC1; /*teal*/
+	/*background: #7C786A;*/ /*grayish*/
+	/*background: #8DCDC1;*/ /*teal*/
 	/*background: #D3E397;*/ /*green*/
 	/*background: #FFF5C3;*/ /*yellow*/
 	/*background: #EB6E44;*/ /*orange*/
+
+	background: #604875; /*purple*/
 
 	width: 100%;
 	margin-top: -20px;
@@ -100,7 +102,7 @@ body {
 	color: #3D3242;
 	color: white;
 	color: #7A3E48;
-	color: #7C786A;
+	color: #604875;
 	/*background: #EECD86;*/
 	/*background: #B95835;*/ /*orange*/
 	/*background: #7A3E48;*/ /*magenta*/
@@ -115,7 +117,7 @@ body {
 	/*background: #D3E397;*/ /*green*/
 	/*background: #FFF5C3; /*yellow*/
 	/*background: #EB6E44;*/ /*orange*/
-	background-color: white;
+	background-color: #f5f7f7;
 }
 
 .icons-main {
@@ -139,22 +141,25 @@ body {
 	/*border-top: 2px solid #3D3242;*/
 
 	/*New Color Schemes*/
-	background: #7C786A; /*grayish*/
+	/*background: #7C786A; /*grayish*/
 	/*background: #8DCDC1;*/ /*teal*/
 	/*background: #D3E397; /*green*/
 	/*background: #FFF5C3;*/ /*yellow*/
 	/*background: #EB6E44;*/ /*orange*/
 		/*background: url("images/wood-texture-three.jpg");*/
+	background-image: url("http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g");
+	background-color:#362936;
 
 
 }
 
 
 .pink:hover {
-	color: 	 #E18942;
-	color: 	 #8DCDC1;
-	border-color: 	 #E18942;
-	border-color: 	 #8DCDC1;
+	color: 	 #f5f7f7;
+	/*color: 	 #B0A4BB;*/
+	color: 	 #604875;
+	border-color: 	 #f5f7f7;
+	border-color: 	 #604875;
 
 }
 

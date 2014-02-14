@@ -154,6 +154,8 @@ li {
      /*margin: 0px auto;*/
     margin-right: 10px;
     margin-bottom: 10px;
+    border: solid 1px rgb(96, 96, 96);
+    box-shadow: 1px 1px 3px gray;
 }
 figure img {
     width: 160%;
@@ -222,4 +224,9 @@ figcaption:hover{
 
 .summary {
   height: 180px;;
+}
+
+ul {
+  height: 100%;
+  overflow: scroll;
 }
