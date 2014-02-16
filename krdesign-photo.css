@@ -1,24 +1,7 @@
-
-
 body{
   width: 100%;
   font-family: 'EB Garamond', serif;
   color: white; 
-  /*// background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');*/
-  /*// background-color: #abd6ba;*/
-  /*// background-color: #abd6ba;*/
-  /*// background-color: #748d7d;*/
-  /*// background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/55228/1920.jpg') #b66e5d;*/
-  /*background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');*/
-  /*background-image: url('images/wood-texture.jpg');*/
-  /*background-image: url('darkwood-plank copy.jpg');*/
-  /*background-image: url('darkwood-plank-blur.jpg');*/
-  /*background-color: #362936;*/
-  /*background-color: #7C786A;*/ /*grey*/
-  /*background-color: #8DCDC1;*/ /*teal*/
-  /*background-color: #EB6E44;*/
-  /*// background-color: $abc;*/
-  /*background: url("images/wood-texture-three.jpg")*/
   background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
   background-color: #362936;
 }
@@ -36,11 +19,6 @@ body{
 }
 
 .header {
-	/*background: #604875;*/
-	/*background: #D3E397;*/
-	/*background: #8DCDC1; /*teal*/
-	/*background: #7C786A;*/ /*grey*/
-
 	background: #604875;
     width: 100%;
     margin-top: -10px;
@@ -49,8 +27,6 @@ body{
     margin-left: -10px;
     border-bottom: 1px solid #e5e5e5;
     margin-bottom: 30px;
-
-
 }
 
 .header h3 {
@@ -61,14 +37,8 @@ body{
 	padding-left: 85px;
 	display: inline-block;
 }
- /*.container {*/
- 	/*background: #fff;*/
- 	/*border: 1px solid #bbb;*/
- 	/*border-radius: 10px;*/
- /*}*/
 
 .nav {
-	 /*background: #e2614c;*/
 	float: right;
 	display: inline-block;
 	padding: 20px;
@@ -86,18 +56,12 @@ body{
 	width: 60px;
 	text-align: center;
 }
-.home {
-	 /*margin-right: 0px;*/
-}
 
 li{
-  /*border: solid 1px rgb(173, 173, 173);*/
-	border: solid 1px rgb(96, 96, 96);
+  border: solid 1px rgb(96, 96, 96);
   display: block;
   width: 500px;
   height: 335px;
-   /*width: 330px;*/ /*3 on row*/
- /*height: 245px;*/
   float: left; 
   margin:15px;
   background: black;
@@ -105,10 +69,12 @@ li{
   overflow: hidden;
   border-radius: 8px;
 }
+
  figcaption:hover{
       top: 0;
       /*opacity: 1;*/
 	   }
+
 .summary:hover{
       opacity: 1;
       top: 0;
@@ -130,7 +96,6 @@ figcaption{
   top: 80%;
   left: 0;
   background-color: black;
-  /*background: rgb(54, 25, 25);*/
   background: rgba(25, 25, 25, .8);
   font-weight: bold;
   font-size: 90%;
@@ -169,7 +134,6 @@ figcaption{
 .photo-subtitle {
 	color: #604875;
 	text-align: center;
-	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -178,10 +142,6 @@ figcaption{
 li {
 	width: 330px; /*3 on row*/
 	height: 245px;
-	 /*width: 500px;*/
-	 /*height: 385px;*/
-	 /*margin: 10px auto;*/
-	 /*margin: 0px auto;*/
 	margin-right: 10px;
 	margin-bottom: 10px;
 
@@ -194,13 +154,7 @@ figure img {
 	margin-left: -50px;
 }
 .summary {
-	 /*width: 95%;*/
-	 /*overflow: scroll;*/
-	 /*margin-top: 0px;*/
-	 /*height: 85%;*/
-
-	
-	 font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     width: 90%;
     overflow: scroll;
     margin-top: 0px;
@@ -208,6 +162,7 @@ figure img {
     margin-left: -10px;
     font-size: 15px;
 }
+
 .cap-link {
 	font-size: 24px;
 	position: relative;
@@ -247,12 +202,6 @@ figure .palmetto-boards {
 }
 
 figure .yoders {
-	 /*width: 100%;*/
-	 /*margin: 0 auto;*/
-	 /*margin-top: -10px;*/
-	 /*margin-left: 0px;*/
-
-	/*zoomed*/
 	width: 140%;
 	margin: 0 auto;
 	margin-top: -30px;
@@ -446,10 +395,10 @@ figure .cmad {
 }
 
 figure .flexible-package-back {
-width: 150%;
-margin: 0 auto;
-margin-top: 0px;
-margin-left: -45px;
+	width: 150%;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: -45px;
 }
 
 figure .fund-one {
@@ -478,14 +427,14 @@ figure .scholarship {
 }
 
 figure .cap {
-width: 100%;
-margin: 0 auto;
-margin-top: -130px;
-margin-left: 0px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -130px;
+	margin-left: 0px;
 }
 
 .cap-sum {
-height: 70%;
+	height: 70%;
 }
 
 figure .first-fri {
@@ -496,59 +445,59 @@ figure .first-fri {
 }
 
 figure .mtn-view {
-width: 100%;
-margin: 0 auto;
-margin-top: -55px;
-margin-left: 0px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -55px;
+	margin-left: 0px;
 }
 
 figure .concert {
-width: 100%;
-margin: 0 auto;
-margin-top: -25px;
-margin-left: 0px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -25px;
+	margin-left: 0px;
 }
 
 figure .branding-design {
-width: 100%;
-margin: 0 auto;
-margin-top: -5px;
-margin-left: 0px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -5px;
+	margin-left: 0px;
 }
 
 figure .fun-design {
-width: 100%;
-margin: 0 auto;
-margin-top: -5px;
-margin-left: 0px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -5px;
+	margin-left: 0px;
 }
 
 figure .postoffice {
-width: 100%;
-margin: 0 auto;
-margin-top: 0px;
-margin-left: 0px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 figure .owl {
-width: 115%;
-margin: 0 auto;
-margin-top: -10px;
-margin-left: -25px;
+	width: 115%;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-left: -25px;
 }
 
 figure .zebra {
-width: 115%;
-margin: 0 auto;
-margin-top: -10px;
-margin-left: -25px;
+	width: 115%;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-left: -25px;
 }
 
 figure .krafty {
-width: 280%;
-margin: 0 auto;
-margin-top: -17px;
-margin-left: -85px;
+	width: 280%;
+	margin: 0 auto;
+	margin-top: -17px;
+	margin-left: -85px;
 }
 
 .summary {
@@ -563,9 +512,7 @@ margin-left: -85px;
 
 .about-katie {
 	font-family: 'Open Sans', sans-serif;
-	/*font-family: 'Raleway', sans-serif;*/
 	color: #604875;
-	/*font-weight: 500;*/
 }
 
 .about-katie-img {
@@ -586,14 +533,11 @@ margin-left: -85px;
 .header-back,
 .marketing,
 .footer {
-     /*padding-left: 15px;*/
-     /*padding-right: 15px;*/
 }
 
 /* Custom page header */
 .header-back {
     border-bottom: 1px solid #e5e5e5;
-     /*background-color: #db5951;*/
     background-color: #451593;
     width: 100%;
     height: 70px;
@@ -608,16 +552,9 @@ margin-left: -85px;
     padding-bottom: 19px;
 }
 
-.header-back {
-	 /*position: relative;*/
-	 /*width: 1280px;*/
-}
-
 .header-back p {
 	display: inline-block;
 }
-
-
 
 .head-con {
 	width: 1280px;
@@ -626,7 +563,6 @@ margin-left: -85px;
 
 .subtext {
 	display: inline-block;
-	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
@@ -644,9 +580,7 @@ margin-left: -85px;
 	
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	/*position: absolute;*/
-display: inline-block;
-
+	display: inline-block;
 }
 
 i p {
@@ -656,7 +590,6 @@ i p {
 .design-container {
 	max-height: 15000px;
 	min-height: 1280px;
-	/*// position: relative;*/
 	height: 100%;
 	width: 90%;
 	left: 0;
@@ -667,9 +600,7 @@ i p {
 	transition: left .4s ease-in-out;
 	margin: 0 auto;
 	border-radius: 25px;
-	/*box-shadow: 0px 0px 2px #37373f;*/
 	box-shadow: 2px 2px 6px #415655;
-	/*padding: 25px;*/
 	overflow: scroll;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -694,7 +625,6 @@ i p {
 }
 
 .nav {
-     /*background: #e2614c;*/
     float: right;
     display: inline-block;
     padding: 20px;
@@ -714,10 +644,8 @@ i p {
     margin-top: 10px;
 }
 .nav-text {
-    /*font-family: 'Raleway', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    /*position: absolute;*/
     display: inline-block;
 }
 
@@ -743,27 +671,15 @@ i p {
 }
 
 .seg-head {
-margin: 0 auto;
-font-size: 118px;
-/*display: inline;*/
-color: #604875;
-text-align: center;
-border: 6px solid #604875;
-/*width: 263px;*/
-/*height: 239px;*/
-/*height: 172px;*/
-padding-top: 10px;
-border-radius: 20px;
-
-display: inline;
-padding-left: 15px;
-/*background: #604875;*/
-
-}
-
-h2 {
-	/*display: inline-block;*/
-	
+	margin: 0 auto;
+	font-size: 118px;
+	color: #604875;
+	text-align: center;
+	border: 6px solid #604875;
+	padding-top: 10px;
+	border-radius: 20px;
+	display: inline;
+	padding-left: 15px;
 }
 
 .seg-head-full {
@@ -773,14 +689,10 @@ h2 {
 .photo-subtitle {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
-	/*margin-top: -40px;*/
-
-	/*margin-top: -80px;*/
-/*width: 100px;*/
-text-align: center;
-margin: 0 auto;
-font-size: 17px;
-margin-top: 9px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 17px;
+	margin-top: 9px;
 }
 
 .about-katie {
@@ -789,9 +701,7 @@ margin-top: 9px;
 	margin-bottom: 0px;
 	padding-top: 0px;
     font-family: 'Open Sans', sans-serif;
-    /*text-transform: uppercase;*/
 	font-family: 'Shadows Into Light Two', cursive;
-
 	display: inline-block;
 	font-size: 178px;
 	margin-top: -10px;
@@ -799,11 +709,9 @@ margin-top: 9px;
 	margin-bottom: 0px;
 	padding-top: 0px;
 	font-family: 'Open Sans', sans-serif;
-	/*text-transform: uppercase;*/
 	font-family: 'Shadows Into Light Two', cursive;
 	padding-right: 15px;
 	font-weight: 500;
-
 	font-size: 118px;
 	margin-left: -20px;
 }
@@ -815,13 +723,11 @@ margin-top: 9px;
 	padding: 10px;
 	border-radius: 8px;
 	position: fixed;
-	/*visibility: hidden;*/
 	opacity: .7;
 	margin-left: -116px;
 }
 .fixed-nav:hover {
 	background: #604875;
-	/*border-bottom: 1px solid #e5e5e5;*/
 	box-shadow: 1px 4px 0px #e5e5e5;
 	margin-left: 52px;
 	margin-top: -40px;
@@ -829,7 +735,6 @@ margin-top: 9px;
 	border-radius: 8px;
 	position: fixed;
 	opacity: 1;
-	/*visibility: visible;*/
 	-webkit-transform: translate(92px, 0px);
 	-moz-transform: translate(92px, 0px);
 	-o-transform: translate(92px, 0px);
@@ -839,7 +744,6 @@ margin-top: 9px;
 	-moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in;
 	transition: all 0.5s ease-in;
-
 	margin-left: -110px;
 	padding-left: 18px;
 }

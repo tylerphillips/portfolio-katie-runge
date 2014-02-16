@@ -1,8 +1,6 @@
 body {
 	padding-top: 20px;
     padding-bottom: 20px;
-	/*// background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
-	// background-image: url("/images/litch-moon.jpg");	*/
 	font-family: 'EB Garamond', serif;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -13,32 +11,19 @@ body {
 }
 
 .text-muted {
-	/*font-family: 'Raleway', sans-serif;*/
 	color: #f2f2f2;
 	font-size: 40px;
 }
 
 .header {
 	font-family: 'Open Sans', sans-serif;
-	/*background: #3D3242;*/
-
-	/*New Color Schemes*/
-	/*background: #7C786A;*/ /*grayish*/
-	/*background: #8DCDC1;*/ /*teal*/
-	/*background: #D3E397;*/ /*green*/
-	/*background: #FFF5C3;*/ /*yellow*/
-	/*background: #EB6E44;*/ /*orange*/
-
 	background: #604875; /*purple*/
-
 	width: 100%;
 	margin-top: -20px;
 	padding-bottom: 0px;
 	padding-right: 0px;
 	margin-bottom: 0px;
-	/*border-bottom: 2px solid #EECD86;*/
 	overflow: auto;
-
 }
 
 .header h3 {
@@ -49,11 +34,6 @@ body {
 	padding-left: 85px;
 	display: inline-block;
 }
-/*// .container {
-// 	background: #fff;
-// 	border: 1px solid #bbb;
-// 	border-radius: 10px;
-// }*/
 
 .nav {
 	// background: #e2614c;
@@ -74,14 +54,11 @@ body {
 	margin-top: 30px;
 	float: right;
 	display: inline-block;
-	/*padding: 20px;*/
+	text-decoration: none;
 }
 
 
 .main {
-/*	// background-image: url("http://katierunge.files.wordpress.com/2013/11/img_2671.jpg");
-	// background-image: url("/images/litch-moon.jpg");
-	// background-color: yellow;*/
 	background-color: white;
 	width: 100%;
 	height: 700px;
@@ -89,12 +66,10 @@ body {
 	background-position: center;
 	margin: 0 auto;
 	background-size: 100%;
-
 	margin-right: -15px;
 }
 
 .quote {
-	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2.5rem;
 	text-align: center;
@@ -103,60 +78,24 @@ body {
 	color: white;
 	color: #7A3E48;
 	color: #604875;
-	/*background: #EECD86;*/
-	/*background: #B95835;*/ /*orange*/
-	/*background: #7A3E48;*/ /*magenta*/
-	/*background: url("darkwood-plank.jpg");*/
-	/*background: url("darkwood-plank copy.jpg");*/
-	/*background: url("images/wood-texture-three.jpg");*/
 	font-weight: 600;
-
-	/*New Color Schemes*/
-	/*background: #7C786A;*/ /*grayish*/
-	/*background: #8DCDC1;*/ /*teal*/
-	/*background: #D3E397;*/ /*green*/
-	/*background: #FFF5C3; /*yellow*/
-	/*background: #EB6E44;*/ /*orange*/
 	background-color: #f5f7f7;
 }
 
 .icons-main {
-/*	// margin-left: 160px;
-	// margin-right: 100px;
-	// background: #748d7d;
-	// padding: 60px;
-	// margin: 0 auto;
-	// text-align: center;*/
-
 	background: #B95835;
 	background: #EECD86;
-	/*background: #748d7d;*/
-/*	// padding-top: 60px;
-	// padding-bottom: 60px;*/
 	padding: 60px;
 	margin: 0 auto;
 	text-align: center;
-/*	// height: 50%;
-*/	padding-bottom: 100px;
-	/*border-top: 2px solid #3D3242;*/
-
-	/*New Color Schemes*/
-	/*background: #7C786A; /*grayish*/
-	/*background: #8DCDC1;*/ /*teal*/
-	/*background: #D3E397; /*green*/
-	/*background: #FFF5C3;*/ /*yellow*/
-	/*background: #EB6E44;*/ /*orange*/
-		/*background: url("images/wood-texture-three.jpg");*/
+	padding-bottom: 100px;
 	background-image: url("http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g");
 	background-color:#362936;
-
-
 }
 
 
 .pink:hover {
 	color: 	 #f5f7f7;
-	/*color: 	 #B0A4BB;*/
 	color: 	 #604875;
 	border-color: 	 #f5f7f7;
 	border-color: 	 #604875;
@@ -171,8 +110,6 @@ body {
 .icon-title {
 	display: inline-block;
 	position: absolute;
-/*	font-family: 'Raleway', sans-serif;
-*/	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2.5rem;
 	color: white;
@@ -269,39 +206,6 @@ body {
     margin-top: -30px;
 }
 
-/*.fa-desktop {
-	padding-top: 50px;	
-	padding-left: 0px;
-	height: 250px;
-	width: 300px;
-	border: solid 10px #E18942;
-	border-radius: 300px;
-	position: relative;
-	margin-left: 0px;
-}
-
-.fa-user {
-	padding-top: 50px;
-	padding-left: 0px;
-	height: 250px;
-	width: 300px;
-	border: solid 10px #E18942;
-	border-radius: 300px;
-	position: relative;
-	margin-left: 0px;
-}
-
-.fa-camera-retro {
-	padding-top: 50px;
-	padding-left: 0px;
-	height: 250px;
-	width: 300px;
-	border: solid 10px #E18942;
-	border-radius: 300px;
-	position: relative;
-	margin-left: 0px;
-}*/
-
 .main-glyph {
 	font-size: 170px;
 	text-align: center;
@@ -331,7 +235,4 @@ body {
 }
 .main-logo {
 	background-color: #8DCDC1;
-}
-.katie-main-logo {
-
 }
